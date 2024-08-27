@@ -23,7 +23,19 @@ import {
   jobit,
   tripguide,
   threejs,
+  frontend,
+  fullStack,
+  ml,
+  webDev,
+  aws,
+  jenkins,
+  python,
+  kubernetes,
+  nextJs,
+  // terra,
+  ubuntu,
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -46,7 +58,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Designer",
     icon: mobile,
   },
   {
@@ -60,14 +72,11 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "AWS",
+  //   icon: aws,
+  // },
+  
   {
     name: "JavaScript",
     icon: javascript,
@@ -81,12 +90,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next Js",
+    icon: nextJs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Aws",
+    icon: aws,
   },
   {
     name: "Node JS",
@@ -96,75 +105,87 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Kubernetes",
+    icon: kubernetes,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Ubuntu",
+    icon: ubuntu,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Jenkins",
+    icon: jenkins,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Final Year Project",
+    company_name: "Driver Mood and Face Detection Project",
+    icon: ml,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - April 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a driver monitoring system using Python to track facial features and detect signs of drowsiness, distraction, and emotional states.",
+      "Implemented real-time alert mechanisms to ensure driver safety, leveraging computer vision and machine learning techniques.",
+      "Collaborated with a multidisciplinary team to integrate the system into existing automotive platforms.",
+      "Optimized the detection algorithms to achieve high accuracy and responsiveness under various driving conditions.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full-Stack Developer",
+    company_name: "UM Banking Project",
+    icon: fullStack,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - Feb 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the development of a banking application using NextJS, TypeScript, and Tailwind, resulting in a scalable and user-friendly platform.",
+      "Designed and implemented secure authentication and transaction features, ensuring the safety of user data.",
+      "Worked closely with product managers to define project requirements and deliver features on time.",
+      "Conducted performance testing and optimization, improving application speed and user experience.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Artema Medical and Tech",
+    icon: webDev,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Drove a 70% improvement in frontend performance by implementing best practices with NextJS, TypeScript, and Tailwind.",
+      "Led key projects including artemamed, gryphon, and allnet, enhancing the overall user interface and experience.",
+      "Collaborated with cross-functional teams to ensure the seamless integration of frontend components with backend services.",
+      "Focused on writing clean, maintainable code and participated in code reviews to uphold high development standards.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Frontend Developer Intern",
+    company_name: "Abixion Digital Marketing",
+    icon: frontend,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2022 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Enhanced website performance by 80% through the implementation of JavaScript, React, CSS, and WordPress.",
+      "Developed and maintained responsive web applications, ensuring a consistent user experience across devices.",
+      "Engaged in collaborative problem-solving with designers and backend developers to create cohesive digital marketing solutions.",
+      "Improved the codebase through active participation in code reviews and adherence to best practices.",
     ],
   },
 ];

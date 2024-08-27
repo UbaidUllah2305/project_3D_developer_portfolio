@@ -6,7 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import frontend from "./company/frontend.png";
+import fullStack from "./company/fullstack.png";
+import ml from "./company/ml.jpg";
+import webDev from "./company/webdev.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,7 +23,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import aws from "./tech/aws.png";
+import jenkins from "./tech/jenkins.png";
+import python from "./tech/python.png";
+import kubernetes from "./tech/kubn.png";
+import nextJs from "./tech/nextJs.png";
+import ubuntu from "./tech/ubuntu.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -59,4 +67,14 @@ export {
   carrent,
   jobit,
   tripguide,
+  frontend,
+  fullStack,
+  ml,
+  webDev,
+  aws,
+  jenkins,
+  python,
+  kubernetes,
+  nextJs,
+  ubuntu,
 };

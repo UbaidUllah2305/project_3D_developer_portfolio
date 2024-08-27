@@ -22,7 +22,7 @@ const Ball = (props) => {
         <meshStandardMaterial
           color='#fff8eb'
           polygonOffset
-          polygonOffsetFactor={-5}
+          // polygonOffsetFactor={-5}
           flatShading
         />
         <Decal
