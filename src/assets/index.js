@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./ubaidd.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -33,10 +33,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import nadir from "./tech/nadir.webp";
+import saad from "./tech/saad.webp";
+import carrent from "./tech/a.png";
+import jobit from "./tech/b.png";
+import tripguide from "./tech/c.png";
 
 export {
   logo,
@@ -77,4 +78,6 @@ export {
   kubernetes,
   nextJs,
   ubuntu,
+  nadir,
+  saad,
 };

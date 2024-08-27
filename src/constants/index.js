@@ -34,8 +34,9 @@ import {
   nextJs,
   // terra,
   ubuntu,
+  nadir,
+  saad,
 } from "../assets";
-
 
 export const navLinks = [
   {
@@ -66,7 +67,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "API Integration",
     icon: creator,
   },
 ];
@@ -76,7 +77,7 @@ const technologies = [
   //   name: "AWS",
   //   icon: aws,
   // },
-  
+
   {
     name: "JavaScript",
     icon: javascript,
@@ -193,42 +194,42 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "I was impressed by Ubaid's ability to bring our ideas to life with clean, efficient code. He exceeded our expectations in every way.",
+    name: "Nadir Habib",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Artema Tech",
+    image: nadir,
+  },
+  {
+    testimonial:
+      "Ubaid's frontend work drastically improved our website's performance. His attention to detail and dedication truly set him apart.",
+    name: "Atif Khan",
+    designation: "CEO",
+    company: "Abixion Digital Marketing",
+    image: frontend,
+  },
+  {
+    testimonial:
+      "Working with Ubaid was a game-changer. His technical skills and creativity transformed our project into something of exceptional.",
+    name: "Saad Khan",
+    designation: "CEO",
+    company: "Artema Medical",
+    image: saad,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Parallel X",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Frontend project for a Trip platform that streamlines client management and appointment scheduling. The application enhances the user interface, making it easier for communicate to interact with the user efficiently.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -240,9 +241,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "StarBucks Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "3D project, a clone of Starbucks that streamlines manage client management and appointment scheduling. The application enhances the user interface, making it easier for user providers to interact with the system efficiently.",
     tags: [
       {
         name: "react",
@@ -253,7 +254,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -261,25 +262,25 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "CRM",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This Laravel-based website features various modules, including a creative and unique sign-in page. It offers a comprehensive customer registration form and displays customer data in both table format and within the database.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Laravel",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/UbaidUllah2305/Laravel",
   },
 ];
 

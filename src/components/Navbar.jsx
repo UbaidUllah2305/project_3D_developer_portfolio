@@ -9,10 +9,21 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [showNavbar, setShowNavbar] = useState(true);
+  const [lastScrollTop, setLastScrollTop] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
+      
+      if (scrollTop > lastScrollTop && scrollTop > 100) {
+        setShowNavbar(false);
+      } else {
+        setShowNavbar(true);
+      }
+      
+      setLastScrollTop(scrollTop);
+      
       if (scrollTop > 100) {
         setScrolled(true);
       } else {
@@ -23,15 +34,15 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [lastScrollTop]);
 
   return (
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      } w-full flex items-center py-5 fixed top-0 z-20 transition-transform duration-300 ${
         scrolled ? "bg-primary" : "bg-transparent"
-      }`}
+      } ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
@@ -42,7 +53,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img
+            src={logo}
+            alt='logo'
+            className='w-[8vw] h-[8vw] max-w-[100px] max-h-[100px] object-contain'
+          />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Ubaid &nbsp;
             <span className='sm:block hidden'> | Dev</span>
